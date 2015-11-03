@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<!-- <script src="js/bootstrap.min.js"></script> -->
+
+	<script type="text/javascript" src="js/movieObject.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+
+
+</head>
+<body>
+
+<div id="movie-wrapper">
+	<div class="container">
+		<div class="row search-form">
+			
+			<form id="movie-search-form" class="form-inline">
+			  <div class="form-group">
+			    <label class="sr-only">Search for a movie</label>
+			    <div class="input-group">
+			      <input type="text" class="form-control" id="movieInput" placeholder="Movie">
+			  </div>
+			  <select id="search-filter" class="form-control">
+                <option value="one">Movie</option>
+                <option value="two">Actor</option>
+                <option value="three">TV</option>
+                <option value="four">Director</option>
+                <option value="five">All</option>
+            </select>
+			  <button type="submit" class="btn btn-primary">Search!</button>
+			  </div>
+			</form>
+			
+		</div>
+
+
+		<h2>Now Playing</h2>
+		<div id="now-playing-wrapper">
+
+		</div>
+	 </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+<div class="movie-row">
+
+			<!-- </div>
+				<div class="movie-row"> -->
+				
+	<div class="now-playing-movie">
+		<img title="'+overview+'" alt="'+title+'" src="'+basePath+'w300'+posterPath+'">
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

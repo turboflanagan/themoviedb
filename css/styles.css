@@ -1,0 +1,22 @@
+/* line 1, ../compass/sass/main.scss */
+img {
+  width: 100%;
+}
+
+/* line 6, ../compass/sass/main.scss */
+#movie-wrapper .search-form {
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 10, ../compass/sass/main.scss */
+#movie-wrapper .movie-row {
+  overflow: hidden;
+  clear: both;
+  margin: 10px;
+}
+/* line 14, ../compass/sass/main.scss */
+#movie-wrapper .movie-row .now-playing-movie {
+  float: left;
+  width: 23%;
+  margin: 1%;
+}

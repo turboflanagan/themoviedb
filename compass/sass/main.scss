@@ -1,0 +1,20 @@
+img{
+	width: 100%;
+}
+
+#movie-wrapper{
+	.search-form{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.movie-row{
+		overflow: hidden;
+		clear: both;
+		margin: 10px;
+		.now-playing-movie{
+			float: left;
+			width: 23%;
+			margin: 1%;
+		}
+	}	
+}
